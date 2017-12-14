@@ -1,6 +1,6 @@
 Package: gbcatalog
 Title: Genebank Catalog Creation Tool
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: person("Reinhard", "Simon", email = "rsimon64@gmail.com", role = c("aut", "cre"))
 Description: Creates interactive catalogs for genebank collections.
 Depends: R (>= 3.4.3)
