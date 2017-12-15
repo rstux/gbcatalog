@@ -1,0 +1,35 @@
+Binding: create_project
+Title: Genebank Catalog Template
+OpenFiles: index.Rmd
+
+Parameter: collection
+Widget: FileInput
+Label: Accession Data File (Excel) Input
+Default: ~/
+Position: left
+
+Parameter: title
+Widget: TextInput
+Label: Title
+Default: A Title
+Position: right
+
+Parameter: description
+Widget: TextInput
+Label: Description
+Default: Write something cool!
+Position: right
+
+Parameter: author
+Widget: TextInput
+Label: Author
+Default: A. Author
+Position: right
+
+Parameter: language
+Widget: SelectInput
+Label: Language
+Fields: English, Spanish
+Default: English
+Position: right
+

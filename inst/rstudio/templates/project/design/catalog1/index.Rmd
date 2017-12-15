@@ -1,0 +1,24 @@
+--- 
+title: "{{{title}}}"
+author: "{{{author}}}"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "{{{description}}}"
+---
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown', 'gbcatalog'
+), 'packages.bib')
+```
+
+# Introduction
+
+This is some introductory text.
